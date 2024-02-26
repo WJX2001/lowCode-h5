@@ -7,7 +7,7 @@ import {
   scrollYAtom,
   showIframeAtom,
 } from '../../../../store'
-
+import './index.less'
 export interface ICardProps {
   scrollY: number
   cards: [] | IComponentItemProps[]
@@ -25,21 +25,27 @@ const Preview = () => {
     compActiveIndexAtom
   )
   return (
-    <div>
+    <div className="preview-wrap">
       <iframe
         className="preview-iframe"
         // src="http://localhost:3007/preview"
         scrolling="yes"
         frameBorder="0"
         id="previewIframe"
-        style={
-          {
-            // visibility: showIframe ? 'visible' : 'hidden',
-            // 调试阶段直接开启 visibility:'hidden'
-            // visibility:'hidden'
-          }
-        }
+        style={{
+          // visibility: showIframe ? 'visible' : 'hidden',
+          // 调试阶段直接开启 visibility:'hidden'
+          visibility: 'hidden',
+        }}
       />
+      <div
+        className="clone-iframe"
+        style={{
+          // visibility: !showIframe ? 'visible' : 'hidden',
+          // 调试阶段直接开启 visibility:'visible',
+          visibility: 'visible',
+          top: -(scrollY ?? 0) + 56 + 16 + 'px',
+        }}></div>
     </div>
   )
 }
