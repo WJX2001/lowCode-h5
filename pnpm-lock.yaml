@@ -59,8 +59,10 @@ importers:
       '@vitejs/plugin-react': ^4.2.1
       '@wjx/components': workspace:^0.0.1
       antd: ^5.14.2
+      classnames: ^2.3.1
       dayjs: ^1.11.10
       dexie-react-hooks: ^1.1.7
+      dnd-core: ^16.0.1
       eslint: ^8.56.0
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-react-refresh: ^0.4.5
@@ -73,8 +75,10 @@ importers:
     dependencies:
       '@wjx/components': link:../../components
       antd: registry.npmmirror.com/antd/5.14.2_biqbaboplfbrettd7655fr4n2y
+      classnames: registry.npmmirror.com/classnames/2.5.1
       dayjs: registry.npmmirror.com/dayjs/1.11.10
       dexie-react-hooks: registry.npmmirror.com/dexie-react-hooks/1.1.7_n4e27ilpizrbhh7xplgxuiicwe
+      dnd-core: registry.npmmirror.com/dnd-core/16.0.1
       react: registry.npmmirror.com/react/18.2.0
       react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
       react-router-dom: registry.npmmirror.com/react-router-dom/6.22.1_biqbaboplfbrettd7655fr4n2y
