@@ -12,8 +12,10 @@
   "dependencies": {
     "@wjx/components": "workspace:^0.0.1",
     "antd": "^5.14.2",
+    "classnames": "^2.3.1",
     "dayjs": "^1.11.10",
     "dexie-react-hooks": "^1.1.7",
+    "dnd-core": "^16.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1"

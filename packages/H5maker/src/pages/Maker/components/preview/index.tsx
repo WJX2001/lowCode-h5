@@ -1,7 +1,7 @@
 import React from 'react'
 import { IComponentItemProps } from '../comList/schema'
 import { useAtom } from 'jotai'
-import { PreviewHeader } from '@wjx/components'
+import { Card, PreviewHeader } from '@wjx/components'
 import {
   cardsAtom,
   compActiveIndexAtom,
@@ -9,6 +9,7 @@ import {
   showIframeAtom,
 } from '../../../../store'
 import './index.less'
+import EmptyCard from './EmptyCard'
 export interface ICardProps {
   scrollY: number
   cards: [] | IComponentItemProps[]
@@ -46,11 +47,11 @@ const Preview = () => {
           // 调试阶段直接开启 visibility:'visible',
           visibility: 'visible',
           top: -(scrollY ?? 0) + 56 + 16 + 'px',
-          display: 'flex',
-          justifyContent: 'center',
         }}>
         <div className="content">
           <PreviewHeader />
+          <Card />
+          <EmptyCard />
         </div>
       </div>
     </div>

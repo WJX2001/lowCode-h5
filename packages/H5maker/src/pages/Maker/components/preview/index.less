@@ -11,10 +11,35 @@
   background-color: #f7f8fa;
 }
 
+// 去除滑动条
+.preview-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.clone-iframe {
+  position: absolute;
+  left: -200px;
+  right: 0;
+  bottom: 0;
+  top: 72px;
+}
+
 .content {
   width: 375px;
   max-width: 540px;
   margin: 0 auto;
   min-height: 603px;
   box-shadow: 0 4px 16px 0 rgb(0 0 0 / 10%);
+}
+
+.empty-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 16px;
+  padding: 4px 8px;
+  background-color: white;
+  cursor: move;
+  border: 2px dashed rgb(88, 133, 223);
 }

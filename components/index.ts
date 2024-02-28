@@ -1,3 +1,3 @@
 import { PreviewHeader } from './PreviewHeader'
-
-export { PreviewHeader }
+import { Card } from './Card'
+export { PreviewHeader, Card }
