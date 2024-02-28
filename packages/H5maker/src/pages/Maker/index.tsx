@@ -17,6 +17,7 @@ const Maker: React.FC = () => {
       <DndProvider backend={HTML5Backend}>
         <TopBar />
         <ComList />
+        <Preview />
       </DndProvider>
     </div>
   )
