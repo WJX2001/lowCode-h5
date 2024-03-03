@@ -66,6 +66,7 @@ importers:
       eslint: ^8.56.0
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-react-refresh: ^0.4.5
+      immutability-helper: ^3.1.1
       less: ^4.2.0
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -79,6 +80,7 @@ importers:
       dayjs: registry.npmmirror.com/dayjs/1.11.10
       dexie-react-hooks: registry.npmmirror.com/dexie-react-hooks/1.1.7_n4e27ilpizrbhh7xplgxuiicwe
       dnd-core: registry.npmmirror.com/dnd-core/16.0.1
+      immutability-helper: registry.npmmirror.com/immutability-helper/3.1.1
       react: registry.npmmirror.com/react/18.2.0
       react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
       react-router-dom: registry.npmmirror.com/react-router-dom/6.22.1_biqbaboplfbrettd7655fr4n2y
